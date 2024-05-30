@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lapis 1"
+        android:textColor="#FFFFFF"
+        android:background="#FFC0CB"
+        android:gravity="end|bottom"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:text="Lapis 2"
+        android:background="#d63384"
+        android:layout_gravity="center"
+        android:gravity="end|bottom"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="350dp"
+        android:text="Lapis 3"
+        android:background="#DB7093"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:gravity="end|bottom"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end|top"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="50dp"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:rotation="25"
+        android:text="Belanja Rp20RB Gratis Ongkir"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="150dp"
+        android:background="#FF4500"
+        android:gravity="center"
+        android:rotation="40"
+        android:text="Diskon 50%"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+</FrameLayout>
+
+
+
+
